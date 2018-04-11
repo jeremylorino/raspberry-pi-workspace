@@ -1,0 +1,16 @@
+{
+  "name": "blink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "blink.js",
+  "scripts": {
+    "start": "node blink.js",
+    "deploy": "scp ./* pi@10.0.0.55:~/nodetest/",
+    "ssh-pi": "ssh pi@10.0.0.55"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "onoff": "latest"
+  }
+}
